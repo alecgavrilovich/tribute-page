@@ -11,24 +11,42 @@ body {
 
 #wrapper {
   width: 850px;
-  box-shadow: 0 0 15px #888888;
-  padding: 2.5rem;
+  box-shadow: 0 0 40px #888888;
+  padding: 0;
   margin-top: 3rem;
   margin-bottom: 3rem;
-
-
 }
 
+#header {
+  background: #546E7A;
+  color: white;
+}
+
+#content {
+  padding: 3rem;
+}
 
 img {
   display: block;
-  width: 60%;
+  width: 400px;
   max-width: 80%;
-  height: auto;
   border-radius: 100%;
-  border: 1px solid black;
 }
 
 p {
   font-size: 1.3rem;
+  line-height: 2rem;
+  letter-spacing: 0.05rem;
+  text-align: justify;
+}
+
+p::first-letter {
+  padding-left: 1.2rem;
+}
+
+strong {
+  font-size: 1.6rem;
+}
+span {
+  font-weight: bold;
 }
