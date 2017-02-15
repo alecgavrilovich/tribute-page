@@ -17,8 +17,8 @@ body {
   margin-bottom: 3rem;
 }
 
-#header {
-  background: #546E7A;
+header {
+  background: #2c3e50;
   color: white;
 }
 
@@ -26,7 +26,7 @@ body {
   padding: 3rem;
 }
 
-img {
+header img {
   display: block;
   width: 400px;
   max-width: 80%;
@@ -40,13 +40,57 @@ p {
   text-align: justify;
 }
 
-p::first-letter {
-  padding-left: 1.2rem;
-}
-
 strong {
   font-size: 1.6rem;
 }
+
 span {
   font-weight: bold;
+}
+
+#years p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: .5rem;
+}
+
+#sid {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+#sid img {
+  width: 400px;
+}
+
+#sid div,
+#sid p {
+  margin: auto;
+}
+
+#sid p {
+  padding-bottom: 1rem;
+}
+
+
+
+footer {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+footer p {
+  margin-bottom: 2rem;
 }
